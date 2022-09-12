@@ -11,7 +11,7 @@ app.use(express.static('public'))
  
 app.use('/', indexRouter)
 
-require('dotenv').config()
+// require('dotenv').config()
 
 const mongoose = require('mongoose')
 
